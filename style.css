@@ -1,0 +1,100 @@
+/* Generic designing */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #e5e5e5;
+}
+
+/* Header Disigning */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 0 20px;
+  background-color: #fff;
+}
+
+.logo {
+  height: auto;
+  width: auto;
+  font-family: Poppins, serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #6070ff;
+}
+
+/* Main Disigning */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/img/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-color: #fff;
+  background-size: 100% auto;
+}
+
+.heading {
+  color: #172b4d;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'poppins', sans-serif;
+  padding: 70px 20px 0 20px;
+  line-height: 52px;
+}
+
+.sub {
+  color: #344563;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'poppins', sans-serif;
+  padding: 20px 24px;
+  line-height: 24px;
+  margin-top: -40px;
+  margin-bottom: -20px;
+}
+
+/* Designig social */
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex: 1 1 10px;
+  align-content: space-between;
+  padding: 10px;
+  height: 20px;
+  flex-wrap: nowrap;
+  margin-top: -20px;
+}
+
+.icon li {
+  padding: 10px;
+}
+
+.contact {
+  padding: 0 0 0 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+p a {
+  color: #7f8cff;
+}
