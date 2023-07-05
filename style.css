@@ -38,11 +38,9 @@ header {
   flex-direction: column;
   background-image: url(/img/header-shapes\ mobile.png);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   min-height: 90vh;
   background-color: #fff;
-  border: 2px solid goldenrod;
-
 }
 
 .heading {
