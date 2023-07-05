@@ -4,7 +4,7 @@
 <div align="center">
 
 
-  <h3><b>My Hello Microverse project</b></h3>
+  <h3><b>Portfolio setup mobile first</b></h3>
 
 </div>
 
