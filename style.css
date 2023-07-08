@@ -94,6 +94,11 @@ a {
   text-decoration: none;
 }
 
+.connect,
+a {
+  color: #7f8cff;
+}
+
 p a {
   color: #7f8cff;
 }
@@ -375,11 +380,6 @@ p a {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-}
-
-.connect,
-a {
-  color: #7f8cff;
 }
 
 @media (min-width: 768px) {
