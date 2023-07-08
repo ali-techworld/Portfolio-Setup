@@ -21,8 +21,6 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -59,8 +57,6 @@ Portfolio setup  is my second project at microverse which i created with html an
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
-comming soon
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -105,12 +101,6 @@ To run the project, execute the following command:
 
 open index.html using live server Extenshion
 
-### Run tests
-
-comming soon
-### Deployment
-
-comming sooon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 🔭 Author <a name="author"></a>
