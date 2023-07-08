@@ -76,6 +76,11 @@ header {
   margin-top: -38px;
 }
 
+ul li {
+  list-style: none;
+  margin: 5px;
+}
+
 .icon li {
   padding: 10px;
 }
@@ -88,6 +93,7 @@ header {
   line-height: 24px;
   letter-spacing: 0.1em;
   text-align: left;
+  margin: -10px 0 16px -43px;
 }
 
 a {
@@ -98,7 +104,7 @@ p a {
   color: #7f8cff;
 }
 
-/*signig worection*/
+/* signig worection */
 .workcards {
   display: grid;
   row-gap: 2em;
@@ -106,7 +112,7 @@ p a {
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 20px;
   border-radius: 20px;
   min-height: 80vh;
@@ -119,12 +125,11 @@ p a {
 }
 
 .title1 {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
-
+  letter-spacing: 0;
 }
 
 .frame-container {
@@ -132,27 +137,26 @@ p a {
   flex-direction: row;
   text-decoration: none;
   margin-top: -12px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   padding: 0%;
   margin-left: -5px;
-  margin-top: 15px;
 }
 
 .role,
 .year {
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .card-text {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
@@ -164,82 +168,68 @@ p a {
 }
 
 .language {
-
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
-
 }
 
 .html,
 .css,
 .java {
-  background-color: #EBEBFF;
-  color: #6070FF;
+  background-color: #ebebff;
+  color: #6070ff;
   border-radius: 12px;
   padding: 10px;
-}
-
-ul li {
-  list-style: none;
-  margin: 5px;
 }
 
 .card-btn {
   text-align: left;
   background-color: white;
-  color: #396DF2;
+  color: #396df2;
   width: fit-content;
   border-radius: 5px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
-  text-align: center;
-  border: 1px solid #396DF2;
+  border: 1px solid #396df2;
   padding: 10px;
 }
 
 .card-btn:hover {
-  background-color: #396DF2;
+  background-color: #396df2;
   color: white;
 }
 
 .title {
   width: 34%;
   margin-top: 20px;
-}
-
-.contact {
-  margin: -10px 0px 16px -43px;
+  margin-bottom: 20px;
 }
 
 .bottom {
-  margin: 0px 0px 16px -25px;
+  margin: 0 0 16px -25px;
 }
 
 .bio {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #344563;
+  padding: 0 20px;
+  margin-left: 20px;
 }
 
 .contact-container {
   display: flex;
   flex-direction: column;
-}
-
-.bio {
-  padding: 0px 20px;
-  margin-left: 20px;
 }
 
 .about-pic {
@@ -252,7 +242,7 @@ ul li {
 }
 
 .resume {
-  margin: 20px 0px 0px 40px;
+  margin: 20px 0 0 40px;
   padding: 10px;
 }
 
@@ -267,15 +257,15 @@ ul li {
 .title-language {
   display: flex;
   justify-content: space-between;
-  padding: 0px 45px;
+  padding: 0 45px;
 }
 
 .tl {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
@@ -285,7 +275,7 @@ ul li {
   margin-top: -15px;
 }
 
-.fotter-java>* {
+.fotter-java > * {
   padding: 15px;
 }
 
@@ -295,7 +285,7 @@ ul li {
   margin-top: -15px;
 }
 
-.fotter-html>* {
+.fotter-html > * {
   padding: 15px;
 }
 
@@ -305,16 +295,16 @@ ul li {
   margin-top: -15px;
 }
 
-.fotter-css>* {
+.fotter-css > * {
   padding: 15px;
 }
 
 .lp-title {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #253858;
 }
@@ -337,15 +327,15 @@ ul li {
 
 .framework,
 .skills {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .pic1 img {
     width: 100%;
     height: 100%;
