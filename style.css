@@ -75,7 +75,7 @@ header {
   text-align: left;
 }
 
-.connect-top>* {
+.connect-top > * {
   color: #7f8cff;
 }
 
@@ -88,7 +88,7 @@ header {
   margin-top: -15px;
 }
 
-.social-icon>* {
+.social-icon > * {
   padding: 10px;
 }
 
@@ -143,7 +143,7 @@ a {
 }
 
 .frame {
-  padding: 0px 12px 0px 0px;
+  padding: 0 12px 0 0;
 }
 
 .client {
@@ -181,7 +181,7 @@ a {
   border-radius: 8px;
   padding: 4px 12px;
   margin: 10px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .card-btn {
@@ -200,13 +200,18 @@ a {
 }
 
 .card-btn:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.card-btn:active {
   background-color: #2230d2;
   color: white;
 }
 
 .about-contact-container {
   background-color: #fff;
-  border-radius: 0px 198px 0px 0px;
+  border-radius: 0 198px 0 0;
   border: 1px solid #dfe1e6;
   display: grid;
   overflow: auto;
@@ -251,7 +256,7 @@ a {
   text-align: left;
 }
 
-.connect-bottom>* {
+.connect-bottom > * {
   color: #7f8cff;
 }
 
@@ -261,7 +266,7 @@ a {
   margin-top: -40px;
 }
 
-.bottom-icon>* {
+.bottom-icon > * {
   padding: 10px;
 }
 
@@ -284,7 +289,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 31px;
+  margin: 0 31px;
   padding: 20px;
 }
 
@@ -294,24 +299,22 @@ a {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
-
-.dropdown-img {}
 
 .programing-languages-container {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin: 0px 1px 0px 28px;
+  margin: 0 1px 0 28px;
   padding: 20px;
 }
 
 .programing-languages {
   width: 100%;
   height: 66.72px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
@@ -335,22 +338,20 @@ a {
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   width: 313px;
   height: 24px;
   position: absolute;
   top: 25px;
   left: 90px;
-
-
 }
 
-.skills-frameworks-divider{
+.skills-frameworks-divider {
   width: 100%;
   position: relative;
   left: 18px;
-  padding: 0px 50px 0px 20px;
+  padding: 0 50px 0 20px;
 }
 
 @media (min-width: 768px) {
