@@ -288,7 +288,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0 40px 0px 31px;
+  margin: 0 40px 0 31px;
   padding: 20px;
 }
 
@@ -304,14 +304,8 @@ a {
 
 .dropdown-img {
   position: relative;
-  top: 5px;
-}
-
-.dropdown-img {
-  position: relative;
   top: 4px;
 }
-
 
 .programing-languages-container {
   display: flex;
