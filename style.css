@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
+
 * {
   margin: 0;
   padding: 0;
@@ -214,7 +215,7 @@ a {
   border-radius: 0 110px 0 0;
   border: 1px solid #dfe1e6;
   display: grid;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .about-section-one {
