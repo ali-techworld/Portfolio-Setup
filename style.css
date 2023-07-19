@@ -214,6 +214,7 @@ a {
   background-color: #fff;
   border-radius: 0 110px 0 0;
   border: 1px solid #dfe1e6;
+  border-bottom: none;
   display: grid;
   overflow: hidden;
 }
@@ -357,6 +358,25 @@ a {
   position: relative;
   left: 18px;
   padding: 0 50px 0 20px;
+}
+
+
+.fotter-container{
+  background-color: #6070FF;
+  min-height: 150vh;
+  border-radius: 100px 0px 0px 0px;
+  margin-top: 150px;
+  overflow: hidden;
+}
+
+.image-container{
+  background-image: url(img/contact\ form\ shapes-mobile.svg);
+  background-repeat: no-repeat;
+  position: sticky;
+  width: 222px;
+  height: 800px;
+  top: 50px;
+  left: 1000px;
 }
 
 @media (min-width: 768px) {
