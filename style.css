@@ -76,7 +76,7 @@ header {
   text-align: left;
 }
 
-.connect-top > * {
+.connect-top>* {
   color: #7f8cff;
 }
 
@@ -89,7 +89,7 @@ header {
   margin-top: -15px;
 }
 
-.social-icon > * {
+.social-icon>* {
   padding: 10px;
 }
 
@@ -258,7 +258,7 @@ a {
   text-align: left;
 }
 
-.connect-bottom > * {
+.connect-bottom>* {
   color: #7f8cff;
 }
 
@@ -268,7 +268,7 @@ a {
   margin-top: -40px;
 }
 
-.bottom-icon > * {
+.bottom-icon>* {
   padding: 10px;
 }
 
@@ -360,24 +360,43 @@ a {
   padding: 0 50px 0 20px;
 }
 
-
-.fotter-container{
-  background-color: #6070FF;
+.fotter-contact-form-container {
   min-height: 150vh;
-  border-radius: 100px 0px 0px 0px;
-  margin-top: 150px;
+  border-radius: 100px 0px 0px;
+  margin-top: 88px;
+  background-color: #6070FF;
   overflow: hidden;
-  width: 100%;
+  display: flex;
 }
 
-.image-container{
-  background-image: url(img/contact\ form\ shapes-mobile.svg);
-  background-repeat: no-repeat;
-  position: sticky;
-  width: 222px;
-  height: 800px;
-  top: 50px;
-  left: 1000px;
+.fotter-contact-form-imag{
+  margin-top: 20px;
+}
+
+.fotter-contact-form-text {
+  margin: 115px -191px 550px 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.fotter-contact-form-heading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.fotter-contact-form-subheading {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
 }
 .contact-footer-container{
   display: flex;
