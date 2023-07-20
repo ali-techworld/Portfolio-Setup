@@ -5,7 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
-
 * {
   margin: 0;
   padding: 0;
@@ -76,7 +75,7 @@ header {
   text-align: left;
 }
 
-.connect-top>* {
+.connect-top > * {
   color: #7f8cff;
 }
 
@@ -89,7 +88,7 @@ header {
   margin-top: -15px;
 }
 
-.social-icon>* {
+.social-icon > * {
   padding: 10px;
 }
 
@@ -258,7 +257,7 @@ a {
   text-align: left;
 }
 
-.connect-bottom>* {
+.connect-bottom > * {
   color: #7f8cff;
 }
 
@@ -268,7 +267,7 @@ a {
   margin-top: -40px;
 }
 
-.bottom-icon>* {
+.bottom-icon > * {
   padding: 10px;
 }
 
@@ -278,7 +277,7 @@ a {
 }
 
 .about-section-two {
-  min-height: 75vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
 }
@@ -361,20 +360,20 @@ a {
 }
 
 .fotter-contact-form-container {
-  min-height: 150vh;
-  border-radius: 100px 0px 0px;
+  min-height: 85vh;
+  border-radius: 100px 0 0;
   margin-top: 88px;
-  background-color: #6070FF;
+  background-color: #6070ff;
   overflow: hidden;
   display: flex;
 }
 
-.fotter-contact-form-imag{
+.fotter-contact-form-imag {
   margin-top: 20px;
 }
 
 .fotter-contact-form-text {
-  margin: 115px -205px 550px 15px;
+  margin: 115px -205px 50px 15px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -385,100 +384,75 @@ a {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .fotter-contact-form-subheading {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
 }
 
-.fotter-contact-form-subheading {
+.fotter-background-image {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
 }
-.contact-footer-container{
+
+.form-conatiner {
+  margin-top: 30px;
+}
+
+form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  align-content: start;
-  justify-items: center;
+}
+
+.input {
+  border-radius: 5px;
+  padding: 15px 10px 15px 10px;
+  margin: 5px 0 5px 0;
+  border: none;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #172b4d;
+}
+
+::placeholder {
+  color: #172b4d;
+}
+
+textarea::placeholder {
+  color: #b3bac5;
+  font-family: "poppins Arial", Helvetica, sans-serif;
+}
+
+.form-btn {
+  width: 130px;
+  height: 50px;
+  color: #6070ff;
   text-align: center;
-  margin: 12px;
 }
-.contact-footer-container h3{
-  font-size: 30px;
-  font-weight: 700;
-  color: #f7f7f9;
-}
-.contact-footer-container p{
-  font-size: 20px;
-  font-weight: lighter;
-  color: #f7f7f9;
-}
-.fotter-contact-form-text form{
-  display: flex;
-  flex-direction: column;
-  align-content: start;
-  justify-content: center ;
-  gap: 1em;
-  margin-top: 2em;
-}
-.fotter-contact-form-text input {
- width: 100%;
- height: 30%;
-padding: 10px;
-border-radius: 5px;
-border: none;
-outline-style: none;
-}
-.fotter-contact-form-text textarea{
-  width: 100%;
- height: 50%;
-padding: 10px;
-border-radius: 5px;
-border: none;
-outline-style: none;
-padding: 10px 0px 111px 10px;
-font-size: 15px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-color: #B3BAC5;
-}
-.fotter-contact-form-text input::placeholder,.fotter-contact-form-text textarea{
-font-size: 15px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-color: #B3BAC5;
-}
-.fotter-contact-form-text .btn-footer-container{
-font-size: 17px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.03em;
-text-align: center;
-width: 50%;
-color: #6070FF;
-}
-.fotter-contact-form-text .btn-footer-container:hover{
+
+.form-btn:hover {
+  color: #fff;
+  background-color: #172b4d;
   cursor: pointer;
-  background-color:#2f3675 ;
-  color: #FFFFFF;
+}
+
+.end-border {
+  margin-top: 30px;
 }
 
 @media (min-width: 768px) {

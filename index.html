@@ -46,7 +46,7 @@
                 <li class="card-language">CSS</li>
                 <li class="card-language">Javascript</li>
               </ul>
-              <button class="card-btn">See project</button>
+              <button type="button" class="card-btn">See project</button>
         </div>
         <div class="card card2">
             <div class="project-picture"><img src="/img/Snapshoot Portfolio (2).png" alt="Snapshoot"></div>
@@ -65,7 +65,7 @@
                    <li class="card-language">CSS</li>
                    <li class="card-language">Javascript</li>
                  </ul>
-                 <button class="card-btn">See project</button>
+                 <button type="button" class="card-btn">See project</button>
            </div>
            <div class="card card3">
             <div class="project-picture"><img src="/img/Snapshoot Portfolio (3).png" alt="Snapshoot"></div>
@@ -83,7 +83,7 @@
                    <li class="card-language">CSS</li>
                    <li class="card-language">Javascript</li>
                  </ul>
-                 <button class="card-btn">See project</button>
+                 <button type="button" class="card-btn">See project</button>
            </div>
            <div class="card card4">
             <div class="project-picture"><img src="/img/Snapshoot Portfolio (4).png" alt="Snapshoot"></div>
@@ -102,7 +102,7 @@
                    <li class="card-language">CSS</li>
                    <li class="card-language">Javascript</li>
                  </ul>
-                 <button class="card-btn">See project</button>
+                 <button type="button" class="card-btn">See project</button>
            </div>
     </section>
     <section class="about-contact-container">
@@ -124,7 +124,7 @@
              
              
          </ul>
-         <button class="card-btn resume">Get my resume</button>
+         <button type="button" class="card-btn resume">Get my resume</button>
         </div>
         <div class="about-section-two">
             <ul class="about-language-container">
@@ -165,12 +165,15 @@
         <h2 class="fotter-contact-form-heading">Contact me</h2>
         <p class="fotter-contact-form-subheading">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
           I’d love to help with it!</p>
-      <form action="https://formspree.io/f/{form_id}" method="post">
-          <input required="required" name="Name" id="Name"  maxlength="30"  placeholder="Lorem Ipsum" type="text">
-          <input required="required" name="email" id="email"   type="email" placeholder="loremipsum@gmail.com">
-          <textarea required="required" maxlength="500" placeholder="Write your message here.."></textarea>
-          <input class="btn-footer-container" value="Get in touch"   type="submit">
-        </form>
+        <section class="form-conatiner">
+          <form action="https://formspree.io/f/{form_id}" method="post" class="form">
+            <input type="text" name="name" required="required" maxlength="30" placeholder="Lorem Ipsum" class="input name">
+            <input type="email" name="email" required="required" placeholder="loremipsum@gmail.com" class="input email">
+            <textarea name="textarea" class="input textarea" required="required" placeholder="Write your message here.." cols="30" rows="7"></textarea>
+            <input type="submit" value="Get in touch" class="input form-btn">
+          </form>
+          <img src="img/Shape.png" alt="end border" class="end-border">
+        </section>
       </section>
       <section class="fotter-contact-form-imag"><img src="img/contact form shapes-mobile.png" alt="fotter-background-image" class="footer-background-image"></section>
     </section>
