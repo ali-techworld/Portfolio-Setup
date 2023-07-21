@@ -557,6 +557,7 @@ textarea::placeholder {
   flex-direction: column;
   width: 30%;
   position: relative;
+  background: #f7f7f9;
 }
 
 .javascript, .html, .css{
