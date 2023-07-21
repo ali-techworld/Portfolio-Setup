@@ -41,10 +41,11 @@ header {
 }
 
 .nav-links {
-  padding: 0px 10px 0px 10px;
+  padding: 0 10px 0 10px;
   margin: 0 10px;
   font-size: 15px;
   font-weight: 500;
+  display: none;
 }
 
 .nav-links > * {
@@ -53,15 +54,16 @@ header {
 
 
 /* Hero page Disigning */
-.header-background-image{
+.header-background-image {
   background-image: url(img/header-shapes\ mobile.png);
   background-repeat: no-repeat;
   background-size: 100%;
   min-height: 65vh;
   background-color: #fff;
-  border-radius: 0px 0px 0px 100px;
+  border-radius: 0 0 0 100px;
   background-position: center center;
 }
+
 .bio-content-container {
   display: flex;
   flex-direction: column;
@@ -96,7 +98,7 @@ header {
   text-align: left;
 }
 
-.connect-top>* {
+.connect-top > * {
   color: #7f8cff;
 }
 
@@ -109,7 +111,7 @@ header {
   margin-top: -15px;
 }
 
-.social-icon>* {
+.social-icon > * {
   padding: 10px;
 }
 
@@ -140,7 +142,7 @@ a {
   border: 1px solid #dfe1e6;
 }
 
-.project-picture img{
+.project-picture img {
   width: 100%;
 }
 
@@ -281,7 +283,7 @@ a {
   text-align: left;
 }
 
-.connect-bottom>* {
+.connect-bottom > * {
   color: #7f8cff;
 }
 
@@ -291,7 +293,7 @@ a {
   margin-top: -40px;
 }
 
-.bottom-icon>* {
+.bottom-icon > * {
   padding: 10px;
 }
 
@@ -386,7 +388,7 @@ a {
 .fotter-contact-form-container {
   min-height: 50vh;
   border-radius: 100px 0 0;
-  margin-top: 0px;
+  margin-top: 0;
   background-color: #6070ff;
   overflow: hidden;
   display: flex;
@@ -479,18 +481,14 @@ textarea::placeholder {
   margin-top: 30px;
 }
 
-.nav-links{
-  display: none;
-}
-
 @media (min-width: 768px) {
   .project-picture img {
     width: auto;
     height: auto;
-    margin: 0px 20px 0px 0px;
+    margin: 0 20px 0 0;
   }
 
-  .project-description{
+  .project-description {
     gap: 0.5em;
     display: flex;
     flex-direction: column;
@@ -501,97 +499,97 @@ textarea::placeholder {
     display: none;
   }
 
-  .nav-links{
+  .nav-links {
     display: flex;
   }
+
   .header-background-image {
     background-image: url(img/Header\ bg.png);
     background-size: 100%;
     background-position: initial;
   }
-  .bio-content-container{
+
+  .bio-content-container {
     padding: 220px;
   }
 
-.card {
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  padding: 20px;
-}
+  .card {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: 20px;
+  }
 
-.reverse-pic {
-  order: 1;
-}
+  .reverse-pic {
+    order: 1;
+  }
 
-.about-contact-container{
-  flex-direction: row;
-  
-}
+  .about-contact-container {
+    flex-direction: row;
+  }
 
+  .about-section-one {
+    flex: 1;
+    min-height: 50vh;
+  }
 
-.about-section-one{
-  flex: 1;
-  min-height: 50vh;
-}
+  .about-section-two {
+    flex: 2;
+    min-height: 50vh;
+    margin-top: 5em;
+    gap: 2em;
+  }
 
-.about-section-two{
-  flex: 2;
-  min-height: 50vh;
-  margin-top: 5em;
-  gap: 2em;
-}
+  .programing-languages-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding: 0;
+    position: relative;
+    margin: 0 431px 0 60px;
+  }
 
-.programing-languages-container{
-  display: flex;
-  flex-direction: row;
-  gap: 1em;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  margin: 0px 431px 0px 60px;
+  .programing-languages {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    position: relative;
+    background: #f7f7f9;
+  }
 
-}
-.programing-languages{
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  position: relative;
-  background: #f7f7f9;
-}
+  .javascript,
+  .html,
+  .css {
+    position: absolute;
+    top: 57px;
+    left: 90px;
+    margin: 10px -43px 20px -69px;
+  }
 
-.javascript, .html, .css{
-  position: absolute;
-  top: 57px;
-  left: 90px;
-  margin: 10px -43px 20px -69px;
-}
+  .fotter-contact-form-container {
+    background-image: url(img/contact\ form\ background\ shapes.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    min-height: 60vh;
+  }
 
-.fotter-contact-form-container{
-  background-image: url(img/contact\ form\ background\ shapes.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  min-height: 60vh;
-}
+  .fotter-contact-form-text {
+    width: 70vw;
+    align-items: center;
+    justify-content: center;
+    margin: 200px;
+  }
 
-.fotter-contact-form-text{
-  width: 70vw;
-  align-items: center;
-  justify-content: center;
-  margin: 200px;
-}
-.fotter-contact-form-imag{
-  display: none;
-}
+  .fotter-contact-form-imag {
+    display: none;
+  }
 
-.form-btn{
-  margin-left: 6em;
-}
+  .form-btn {
+    margin-left: 6em;
+  }
 
-.end-border{
-  display: none;
+  .end-border {
+    display: none;
+  }
 }
-
-}
-
