@@ -38,6 +38,7 @@ header {
 
 .nav-links-container {
   display: flex;
+  
 }
 
 .nav-links {
@@ -46,6 +47,12 @@ header {
   font-size: 15px;
   font-weight: 500;
   display: none;
+  transition: transform 500ms, background-color 500ms;
+}
+
+.nav-links:hover{
+  background-color: blue ;
+  transform: scale(1.5);
 }
 
 .nav-links > * {
@@ -221,11 +228,13 @@ a {
   border: 1px solid #396df2;
   padding: 12px;
   margin-top: 15px;
+  transition: transform 1s ease-in-out ;
 }
 
 .card-btn:hover {
   background-color: #6070ff;
   color: white;
+  transform: translate(x50);
 }
 
 .card-btn:active {
@@ -240,6 +249,7 @@ a {
   border-bottom: none;
   display: flex;
   flex-direction: column;
+  min-height: 95vh;
   overflow: hidden;
 }
 
@@ -485,7 +495,16 @@ textarea::placeholder {
     width: auto;
     height: auto;
     margin: 0 20px 0 0;
+    transition: transform 1ms;
   }
+  .project-picture img:hover{
+    width: auto;
+    height: auto;
+    transform: scale(1.2);
+    
+    border: 5px solid #6070FF;
+  }
+
 
   .project-description {
     gap: 0.5em;
@@ -525,11 +544,12 @@ textarea::placeholder {
 
   .about-contact-container {
     flex-direction: row;
+    min-height: 50vh;
   }
 
   .about-section-one {
     flex: 1;
-    min-height: 50vh;
+    min-height: 75vh;
   }
 
   .about-section-two {
