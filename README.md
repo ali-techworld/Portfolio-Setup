@@ -101,6 +101,10 @@ To run the project, execute the following command:
 
 open index.html using live server Extenshion
 
+## 🔭 Deployment<a name="deployment"></a>
+
+You can deploy this project using this link:
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 🔭 Author <a name="author"></a>
