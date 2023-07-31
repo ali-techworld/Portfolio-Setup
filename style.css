@@ -48,6 +48,10 @@ header {
   display: none;
 }
 
+.navbar .active li{
+  display: block;
+}
+
 .nav-links > * {
   color: #344563;
 }
